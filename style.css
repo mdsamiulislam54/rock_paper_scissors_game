@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: calc(center);
+    background-color: gold;
+   
+}
+
+.container{
+    margin: 10px auto;
+    width: 400px;
+    height: 430px;
+    background: linear-gradient(35deg,black,blue);
+    clip-path: polygon(100% 0, 94% 53%, 100% 100%, 0 100%, 9% 51%, 0 0);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+}
+.ston_paper_scirssors h1{
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 0px;
+    color: white;
+    background: linear-gradient(35deg,gold, red);
+    border-radius: 30px;
+    margin: 10px ;
+}
+.game_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game_img .img{
+    margin: 30px 30px;
+   
+}
+.game_img .img img{
+    width: 40px;
+   
+}
+.game_img .img:hover{
+    cursor: pointer;
+    background: linear-gradient(35deg,rgb(6, 182, 252),rgb(153, 76, 76));
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.score{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px 0px;
+}
+.score .you p{
+    text-transform: capitalize;
+    padding: 14px 0px;
+}
+
+.status_show{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(35deg,gold, red);
+    border-radius: 30px;
+    margin: 10px 20px ;
+    padding: 10px 5px;
+    
+}
